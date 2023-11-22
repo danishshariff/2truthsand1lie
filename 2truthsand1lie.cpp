@@ -50,7 +50,7 @@ for(int i=0;i<=max(t1,t2);i++){
         bullet++;
     }
     
-    else if(i==l){
+     if(i==l){
         cout<<bullet<<". "<<lie<<endl;
         liechecker=bullet;
         bullet++;
